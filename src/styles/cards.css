@@ -1,0 +1,113 @@
+
+.in span{
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    margin-left: 10px;
+    color: #00236e;
+    text-decoration:underline;
+}
+.fa-list-alt{
+    font-size: 28px;
+    margin-left: 10px;
+    color: #00236e;
+}
+.category{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 1%;
+    gap: 20px;
+    margin-top: 20px;
+}
+.category button{
+    width: 200px;
+    height: 50px;
+    border:3px solid #00236e;
+    color: #000000;
+    background-color: #00000011;
+    font-family: cursive;
+    font-size: 18px;
+    border-radius: 10px;
+}
+.category button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.cards{
+    padding: 10px;
+    width: 200px;
+    padding: 20px;
+    margin: 10px;
+    justify-content: center;
+    text-align: center;
+}
+.cards:hover{
+    transform: scale(1.1,1.1);
+} 
+.image_box img{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    border: 2px solid #00236e;
+}
+.details{
+    padding: 20px;
+    line-height: 30px;
+}
+.details p:nth-child(1){
+    font-weight: bold;
+}
+.details p:nth-child(2){
+    color: #000000;
+    font-size: 15px;
+}
+.details button{
+    padding: 5px 10px;
+    border: none;
+    font-weight: bold;
+    background-color: #00236e;
+    outline: none;
+    border-radius: 2px;
+    margin-left: 8px;
+    color: #fff;
+    cursor: pointer;
+    font-family: cursive;
+} 
+@media (min-width:500px) and  (max-width:600px){
+    section{
+        width: 77.5%;
+        display: grid;
+        margin-left:25%;
+        grid-template-columns: 1fr;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-family: cursive;
+    } 
+}
+@media (min-width:601px) and (max-width:1000px){
+    section{
+        width: 77.5%;
+        display: grid;
+        margin-left:20%;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-family: cursive;
+    } 
+}
+@media (min-width:1001px){
+    section{
+        width: 77.5%;
+        display: grid;
+        margin-left:20%;
+        grid-template-columns: repeat(3, 1fr);
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-family: cursive;
+    } 
+}

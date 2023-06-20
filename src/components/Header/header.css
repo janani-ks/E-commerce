@@ -1,0 +1,128 @@
+
+.head{
+    background-color: #00236e;
+    color: #fff;
+    width: 97%;
+    display: grid;
+    grid-template-columns: 2.5fr 0.9fr;
+    margin: 10px;
+    padding: 10px;
+    height: 25px;
+    font-family: cursive;
+}
+.left-row label{
+    cursor: pointer;
+}
+.right-row label{
+    cursor: pointer;
+}
+.left-row label:hover{
+    color: #ffe771;
+}
+.right-row label:hover{
+    color: #ffe771;
+}
+
+.head i{
+    margin-left: 10px;
+}
+.head label{
+    margin-right: 10x;
+    font-size: 15px;
+    margin-left: 10px;
+}
+.theme{
+    border: 1px solid #e3e2ed;
+}
+.search{
+    background-color: #00236e;
+    color: #fff;
+    padding: 10px;
+    height: 55px;
+    width: 97%;
+    margin-top: -10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: cursive;
+}
+.logo img{
+    height: 50px;
+    width: 220px;
+    margin-left: 10px;
+}
+.box{
+    /* height: 30px; */
+    display: flex;
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-radius: 30px;
+    align-items: center;
+    box-shadow: 0 10px 25px #00000033;
+}
+.box:hover input{
+    width: 300px;
+}
+.box input{
+    width: 0;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    transition: 0.8s;
+    background: transparent;
+}
+.box a .fas{
+    color: #00236e;
+    font-size: 18px;
+}
+/* .fa-shopping-cart{
+    font-size: 23px;
+}
+.cart{
+    position: absolute;
+}
+.search .cart span{
+    position: absolute;
+    top: -10px;
+    right: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #e70000;
+    font-size: 12px;
+    color: #fff;
+} */
+/* .categories{
+    background-color: #f6f9fc;
+    padding: 0 30px;
+    border-radius: 5px;
+    height: 6vh;
+    margin-top: 5px;
+}
+.categories span{
+    margin-right: 20px;
+    font-size: 30px;
+    margin-top: 10px;
+}
+.categories h4{
+    font-weight: 500;
+    margin-top: 12px;
+}
+.categories h4 i{
+    margin-left: 30px;
+}
+header{
+    height: 8vh;
+    box-shadow: -1px 15px 17px -8px #00000011;
+} */
+.contact{
+    padding: 10px;
+    text-decoration: underline;
+    position: absolute;
+    left: 90%;
+    color: #fff;
+}
+.contact:hover{
+    color: #ffe74c;
+}
